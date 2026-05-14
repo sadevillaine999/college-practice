@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Правильно написанные правила (исправлены опечатки)
+    prefer_const_constructors: false
+    prefer_const_declarations: false
+    avoid_print: false  # Разрешаем использовать print()
+    use_key_in_widget_constructors: true
+    
+    # Дополнительные правила для отключения требований const
+    prefer_const_literals_to_create_immutables: false
+    prefer_final_fields: false
+    prefer_final_locals: false
